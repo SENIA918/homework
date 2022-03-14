@@ -1,0 +1,46 @@
+p {
+  margin: 10px;
+  font-size: 20px;
+  font-style: italic;
+}
+.biohazard {
+  background: url(img/biohazard.png);
+  width: 200px;
+  height: 200px;
+  position: absolute; left: 160px; top: 130px; 
+}
+.biohazard:hover {
+  z-index: 1;
+  transform: scale(1.2);
+}
+.Man-and-woman {
+  background:url(img/Man-and-woman.png) ;
+  width: 200px;
+  height: 200px;
+  position: absolute; left: 360px; top: 125px; 
+}
+.Man-and-woman:hover {
+  transform: scale(1.2);
+  z-index: 1;
+  }
+.Yin_and_Yang {
+  background-image: url(img/Yin_and_Yang.png);
+  width: 200px;
+  height: 200px;
+  position: absolute; left: 270px;top: 320px;
+}
+.Yin_and_Yang:hover {
+  transform: scale(1.2);
+  z-index: 1;
+}
+.No_smoking {
+  background-image: url(img/No_smoking.png);
+  width: 255px;
+  height: 255px;
+  position: absolute; left: 240px;top: 190px;
+}
+.footer {
+  position: absolute; top: 500px;
+}
+
+

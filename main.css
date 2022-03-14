@@ -1,13 +1,18 @@
-p {
+.body {
   margin: 10px;
   font-size: 20px;
   font-style: italic;
+}
+.images {
+  height: 400px;
+  width: 600px;
+  position: relative;
 }
 .biohazard {
   background: url(img/biohazard.png);
   width: 200px;
   height: 200px;
-  position: absolute; left: 160px; top: 130px; 
+  position: absolute; left: 100px; top: 10px; 
 }
 .biohazard:hover {
   z-index: 1;
@@ -17,7 +22,7 @@ p {
   background:url(img/Man-and-woman.png) ;
   width: 200px;
   height: 200px;
-  position: absolute; left: 360px; top: 125px; 
+  position: absolute; left: 290px; top: 1px; 
 }
 .Man-and-woman:hover {
   transform: scale(1.2);
@@ -27,7 +32,7 @@ p {
   background-image: url(img/Yin_and_Yang.png);
   width: 200px;
   height: 200px;
-  position: absolute; left: 270px;top: 320px;
+  position: absolute; left: 200px;top: 200px;
 }
 .Yin_and_Yang:hover {
   transform: scale(1.2);
@@ -37,10 +42,6 @@ p {
   background-image: url(img/No_smoking.png);
   width: 255px;
   height: 255px;
-  position: absolute; left: 240px;top: 190px;
+  position: absolute; left: 170px;top: 50px;
 }
-.footer {
-  position: absolute; top: 500px;
-}
-
 

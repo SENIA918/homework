@@ -4,8 +4,9 @@
   font-style: italic;
 }
 .images {
-  border: solid seagreen 2px;
-  position: relative; left: 450px; top: 10px;
+  position: relative; 
+  margin: 10px auto;
+  top: 10px;
   height: 400px;
   max-width: 400px;
 }
